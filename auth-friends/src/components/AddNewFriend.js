@@ -1,6 +1,6 @@
 import React from "react";
 import useForm from "react-hook-form";
-import axiosWithAuth from "../auth/axiosWithAuth.js";
+import axiosWithAuth from "./auth/axiosWithAuth.js";
 
 const AddNewFriend = (props) => {
   const { register, handleSubmit, reset, errors } = useForm();
