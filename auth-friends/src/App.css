@@ -36,3 +36,16 @@
     transform: rotate(360deg);
   }
 }
+
+input, button {
+  margin: 1.1%;
+  padding: 5px;
+}
+
+.friend {
+  padding: 5px;
+  border: 2px solid black;
+  background: lightgrey;
+  width: 20%;
+  margin: 1% auto;
+}
